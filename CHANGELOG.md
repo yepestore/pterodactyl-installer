@@ -2,6 +2,16 @@
 
 This project follows the [semantic versioning](https://semver.org) convention. Changelog points should be divided into fixed, changed, or added.
 
+## next-release
+
+### Fixed
+
+- [#567](https://github.com/pterodactyl-installer/pterodactyl-installer/pull/567) all: update copyright year to 2026
+
+### Added
+
+- [70083ab](https://github.com/pterodactyl-installer/pterodactyl-installer/commit/70083abbb8c854df99939f7a54ef738b39cfe12e) panel: add ubuntu 26.04 support 
+
 ## v1.2.0 (released on 2025-09-24)
 
 ### Fixed
