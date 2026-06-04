@@ -48,6 +48,7 @@ MYSQL_PASSWORD="${MYSQL_PASSWORD:-$(gen_passwd 64)}"
 
 # Environment
 timezone="${timezone:-Europe/Stockholm}"
+telemetry="${telemetry:-true}"
 
 # Assume SSL, will fetch different config if true
 ASSUME_SSL="${ASSUME_SSL:-false}"
@@ -131,6 +132,7 @@ configure() {
     --redis-host="localhost" \
     --redis-pass="null" \
     --redis-port="6379" \
+    --telemetry="$telemetry" \
     --settings-ui=true
 
   # Fill in environment:database credentials automatically
