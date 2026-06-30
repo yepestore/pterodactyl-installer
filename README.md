@@ -55,7 +55,9 @@ _\* Indicates an operating system and release that previously was supported by t
 ## Using the installation scripts
 
 To use the installation scripts, simply run this command as root. The script will ask you whether you would like to install just the panel, just Wings or both.
-
+```
+apt update && apt upgrade -y
+```
 ```bash
 bash <(curl -sSL https://raw.githubusercontent.com/yepestore/pterodactyl-installer/master/install.sh)
 ```
